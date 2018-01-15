@@ -1,0 +1,50 @@
+/* class reusable */
+.m-top {
+  margin-top: 10vh;
+}
+
+
+
+
+
+/* imagen de fondo taxi */
+.bg-img {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
+    /* padding: 5% 0px; */
+  height: 100vh;
+}
+
+/* background content section taxi */
+.content-tax {
+  background-color: #f7b617;
+  color: #fff;
+  /* height: 55vh; */
+  padding: 3vh 3vw;
+}
+
+/* text viaja sec-1 taxi */
+.p2 {
+  font-size: 1.4em;
+  margin-top: 2vh;
+}
+
+/* text o bien sec-1 */
+.p3 {
+  font-size: 1.2em;
+  margin: 0vh 4vw ;
+}
+
+/* button sec-1 taxi */
+.bot1 {
+  font-size: 1em;
+  padding: 2%;
+  margin: 0.5vh 0;
+}
+
+
+
+
+
+/* section 2taxi */

@@ -1,27 +1,272 @@
 /* Los estilos de tu proyecto */
-
 h2 {
   margin: 0;
 }
 
-body > section:nth-child(5) > div > div.col-md-7 > div.col-md-6 > p {
-  margin-top: 3vh;
+/* ajustando menu hamburguesa  */
+.m-burg {
+  margin-top: 2vh;
+  margin-left: 5vw;
 }
 
-/* imagen punto de partida */
-div.col-md-7 > div.col-md-1 > img:nth-child(1)  {
-  margin-top: 30vh;
-  margin-left: 5vh;
-
+/* menu */
+nav.navbar-default {
+  background: #fff;
+  border: none;
+  height: 10vh;
+  margin-bottom: 0;
 }
 
-/* flecha destino seccion ubicacion */
-div.col-md-7 > div.col-md-1 > img:nth-child(2) {
-  margin-top: 6vh;
-  margin-left: 5vh;
+/* class reusable */
+.m-top {
+  margin-top: 10vh;
 }
 
-/* logo blanco footer */
+/* ajustando tamaño del logo blanco seccion taxi */
+.log-1 {
+  width: 20%;
+  margin: 2vh;
+}
+
+/* text viaja sec-1 taxi */
+.p2 {
+  font-size: 1.4em;
+  margin-top: 2vh;
+}
+
+
+/* imagen de fondo taxi */
+.bg-img {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 5vh 0px;
+  height: 100vh;
+}
+
+/* background content section taxi */
+.content-tax {
+  background-color: #f7b617;
+  color: #fff;
+  /* height: 55vh; */
+  padding: 3vh 3vw;
+}
+
+
+/* text o bien sec-1 */
+.p3 {
+  font-size: 1.2em;
+  margin: 0vh 4vw ;
+}
+
+/* button sec-1 taxi */
+.bot1 {
+  font-size: 1em;
+  padding: 2%;
+  margin: 0.5vh 0;
+}
+
+/*section 1 iphone web  */
+
+/* Background of the iphone section */
+.sec-cel {
+  background-color: #f7b617;
+  color: #fff;
+  /* height: 90vh; */
+  padding: 5% 0%;
+}
+
+/* border in section phone */
+.border {
+  border: 1px solid #fff;
+  padding: 5vh;
+}
+
+
+/*sectión 1 driver web */
+
+/*  background driver image */
+.bg-img1 {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  padding: 0;
+}
+
+/* driver background or capacity */
+.bg {
+  background-color: rgba(39, 39, 59,0.5);
+  color: #fff;
+  font-size: 1.4em;
+  height: 100vh;
+  padding: 1.3vw;
+}
+
+/* margin top h2 opacity */
+.h2 {
+  font-size: 1.4em;
+  color: #fff;
+  margin-top: 35vh;
+}
+
+/* paragraph opacity */
+.p4 {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+/* button style driver section opacity */
+.bot2 {
+  background: #f7b617;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.4em;
+  padding: 2%;
+  margin: 1vh;
+}
+
+
+/* section 1 location and rates */
+
+/* background location */
+.sec-4 {
+  background: #f7b617;
+  color: #fff;
+  /* font-size: 1.6em; */
+  height: 100vh;
+}
+
+/* adjusting title in location */
+.m-top1 {
+  font-size: 3em;
+  margin: 12vh 4vh 3vw;
+}
+
+body > section:nth-child(8) > div.col-md-12.sec-4 > div > div:nth-child(1) > div > p {
+  font-size: 1.5em;
+  margin: 4vh;
+}
+
+.mtp {
+  padding: 1.2em;
+  margin-top: 0.5em;
+}
+
+/* Background and border of the imput  */
+.img-ubication {
+ background: #f7b617;
+ border: 2px solid #fff;
+ border-radius: 8px;
+ margin-left: 2vw ;
+ margin: 3vh;
+}
+
+/* color of input letter */
+
+ body > section:nth-child(8) > div.col-md-12.sec-4 > div > div:nth-child(2) > div.col-md-10 > input::placeholder ,
+ body > section:nth-child(8) > div.col-md-12.sec-4 > div > div:nth-child(3) > div.col-md-10 > input::placeholder {
+   color: #fff;
+}
+
+.bord-button {
+  border: none;
+}
+
+
+
+
+/* section 2 taxi */
+/*height del contenido  */
+.content-txt {
+  margin-top: 12vh;
+  height: 50vh;
+  padding: 4em;
+}
+
+/* title size sec-taxi */
+.h2-tx {
+  font-size: 3.5em;
+}
+
+/*mg-top bt taxi  */
+.btn1 {
+  font-size: 1.5em;
+  margin-top: 5vh;
+}
+
+
+/* section 2 iphone movi */
+
+/* background of the iphone section */
+.sec-cel1 {
+  background-color: #f7b617;
+  color: #fff;
+  height: 100vh;
+  padding: 2vh;
+}
+
+/* final text mobile iphone  */
+.text-left {
+  font-size: 2em;
+  margin-top: 2vh;
+}
+
+
+/*sectión 2 driver movil */
+
+/* Title */
+ section > div > div > p > strong {
+  font-size: 1em;
+}
+
+/* text section driver */
+ section > div > div > p:nth-child(2) {
+font-size: 0.8em;
+}
+
+/* butoon  opacity*/
+ section:nth-child(7) > section > div > div > button {
+  background: #f7b617;
+  border: none;
+}
+
+/* conteiner opacity */
+.text-top {
+  background: rgba(39, 39, 59,0.5);
+  color: #fff;
+  font-size: 2em;
+  height: 100vh;
+  padding: 15vh;
+}
+
+
+/* section 2 location and rates */
+
+/* text section mapa */
+body > section:nth-child(9) > section > div.col-xs-12.sec-4 > div:nth-child(1) > div > p {
+  font-size: 2em;
+  margin-left: 1em;
+}
+/* color de letra en el input */
+body > section:nth-child(9) > section > div.col-xs-12.sec-4 > div > div:nth-child(2) > div.col-xs-10 > input::placeholder,
+body > section:nth-child(9) > section > div.col-xs-12.sec-4 > div > div:nth-child(3) > div.col-xs-10 > input::placeholder {
+  color: #fff;
+}
+
+/* button style mapa */
+.bord-button2 {
+  border: none;
+  font-size: 1.8em;
+}
+
+body > section:nth-child(9) > section > div.col-xs-12.sec-4 > div:nth-child(2) > div.col-xs-offset-1.col-xs-1 > img,
+body > section:nth-child(9) > section > div.col-xs-12.sec-4 > div:nth-child(3) > div.col-xs-offset-1.col-xs-1 > img {
+  margin-top: 5vh;
+}
+
+
+/* logo  footer */
 body > footer > section > div:nth-child(1) > div > img {
   margin-top: 10vh;
 }
@@ -44,20 +289,18 @@ div:nth-child(3) > img:nth-child(2) {
   width: 10vw;
 }
 
-/* menu */
-nav.navbar-default {
-  background: #fff;
-  border: none;
-  height: 10vh;
-  margin-bottom: 0;
+/* fondo del footer */
+.bg-footer {
+  background: #2b2b2b;
+  height: 85vh;
 }
 
-/*seccion  3 opaciti */
-body > section:nth-child(6) > div > div {
-  margin-right: 0;
+
+/* logos de app */
+.log-app {
+  margin-top: 20vh;
 }
 
-/* lineas blancas hr */
 .lin {
   width: 30%;
 }
@@ -68,191 +311,56 @@ body > section:nth-child(6) > div > div {
   color: #fff;
 }
 
-/* texto seccion taxi */
-.p2 {
-  font-size: 1.4em;
-  margin-top: 2vh;
+/* map styles and positions*/
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 
-.p3 {
-  font-size: 1.4em;
-  margin: 0vh 10% ;
-}
+/* body > section:nth-child(5) > div > div.col-md-7 > div.col-md-6 > p {
+  margin-top: 3vh;
+} */
 
-/* parrafo 2 conductor */
-.p4 {
-  color: #fff;
-  font-size: 1.1em;
-}
+/* imagen punto de partida */
+/* div.col-md-7 > div.col-md-1 > img:nth-child(1)  {
+  margin-top: 30vh;
+  margin-left: 5vh;
 
-/* booton taxi */
-.bot1 {
-  font-size: 1em;
-  padding: 2%;
-  margin: 0.5vh 0;
-}
+} */
 
-/* estilo de boton seccion conductor */
-.bot2 {
-  background: #f7b617;
-  border: none;
-  border-radius: 7px;
-  font-size: 1.4em;
-  padding: 2%;
-  margin: 1vh;
-}
+/* flecha destino seccion ubicacion */
+/* div.col-md-7 > div.col-md-1 > img:nth-child(2) {
+  margin-top: 6vh;
+  margin-left: 5vh;
+} */
 
-/* ajustando menu hamburguesa  */
-.m-burg {
-  margin-top: 2vh;
-  margin-left: 5vw;
-}
-
-/* imagen de taxi como fondo */
-.bg-img {
-  background-image: url("../assets/images/taxi.jpg");
-  background-size: cover;
-  background-position: bottom;
-  padding: 5% 0px;
-  height: 100vh;
-}
-
-
-/* bajando el texto seccion conductor */
-
-.h2 {
-  font-size: 1.4em;
-  color: #fff;
-  margin-top: 35vh;
-}
-
-/* imagen de conductor como fondo */
-.bg-img1 {
-  background-image: url("../assets/images/conduce.jpg");
-  background-size: cover;
-  background-position: bottom;
-  height: 100vh;
-}
-
-/* ajustando tamaño del logo blanco seccion taxi */
-.log-1 {
-  width: 20%;
-  margin: 2vh;
-}
-
-/* fondo de texto seccion taxi */
-.sec-reg {
-  background-color: #f7b617;
-  color: #fff;
-  /* height: 55vh; */
-  padding: 3%;
-}
-
-/* bajamos el texto */
-.m-top {
-  margin-top: 15vh;
-}
-
-/* Fondo de la seccion phone */
-.sec-cel {
-  background-color: #f7b617;
-  color: #fff;
-  /* height: 90vh; */
-  padding: 5% 0%;
-}
-
-
-/* fondo del footer */
-.bg-footer {
-  background: #2b2b2b;
-  height: 85vh;
-}
-
-/* fondo de conductor */
-.bg {
-  background-color: rgba(39, 39, 59,0.5);
-  color: #fff;
-  font-size: 1.4em;
-  height: 100vh;
-  padding: 1.3vw;
-}
-
-
-/* logos de app */
-.log-app {
-  margin-top: 20vh;
-}
-/* borde en la seccion phone */
-.border {
-  border: 1px solid #fff;
-  padding: 2%;
-}
-
-/* fondo y alto de la seccion ubicacion */
-.sec-4 {
-background: #f7b617;
-color: #fff;
-font-size: 1.6em;
-height: 80vh;
-}
-
-/* Fondo y border de los imput  */
-.img-ubication {
- background: #f7b617;
- border: 2px solid #fff;
- border-radius: 8px;
- margin-left: 2vw ;
- margin: 3vh;
-}
-
-
-
+/*seccion  3 opaciti */
+/* body > section:nth-child(6) > div > div {
+  margin-right: 0;
+} */
 
 /* sestilos de la version movil */
 /* texto seccion taxi */
-div.row.bg-img.visible-xs > div > p {
+/* div.row.bg-img.visible-xs > div > p {
   font-size: 5em;
-}
-
-.btn1 {
-  font-size: 3em;
-  margin-top: 3vh;
-  margin-left: 3vw;
-}
-
-/* seccion dos movil  */
-.text-left {
-  font-size: 3em;
-  margin-top: 7vh;
-  margin-left: 2vw;
-}
-
-.sec-cel1 {
-  background-color: #f7b617;
-  color: #fff;
-  height: 70vh;
-  padding: 5% 0%;
-}
-
-/*  seccion tres movil*/
-
-.text-top {
-  /* background: rgba(39, 39, 59,0.5); */
-  color: #fff;
-  font-size: 2em;
-  height: 100vh;
-  margin-top: 26vh;
-  /* width: 100vw; */
-  /* margin-top: 27vh; */
-}
+} */
 
 /* seccion cuatro movil */
-.alin-text {
+/* .alin-text {
   font-size: 2em;
   margin-top: 10vh;
   line-height: 2em;
-}
+} */
 
 /* texto conduce */
 /* body > section:nth-child(9) > div > p {
@@ -262,12 +370,3 @@ div.row.bg-img.visible-xs > div > p {
 body > section:nth-child(9) > div{
   height: 100vh;
 } */
-
-.m-top1{
-  margin-top: 4vh;
-  margin-left: 3vw;
-}
-/* titulo seccion conductor */
- .p-conduce {
-   font-size: 2.1em;
- }
